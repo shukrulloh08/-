@@ -11,64 +11,61 @@ body{
     background-color: #1E1E20;
 }
 .container{
-    width: 980px;
+    width: 1140px;
     margin: 0 auto;
 }
 img{
-    width: 350px;
+    width: 200px;
     border-radius: 50%;
-    margin-left: 250px;
+    margin-left: 500px;
     margin-top: 40px;
-    margin-bottom: 8px;
+    margin-bottom: 8px; 
 }
-nav .container i{
+.text{
     font-family: 'Dancing Script', cursive;
-    font-size: 60px;
+    font-size:40px;
     letter-spacing: 3px;
     color: white;
-    margin-left: 135px;
-    cursor: pointer;
+    width: 500px;
+    margin-left: 350px;
+    text-align: center;
+    /* margin-left: 135px; */
 }
-nav .container p{
+.text p{
     color: rgba(255, 255, 255,0.8);
     font-size: 25px;
-    text-align: 20px;
+    /* text-align: 20px; */
     letter-spacing: 4px;
-    margin-left: 220px;
-    margin-top: 10px;
-}
-
-nav{
-    margin-bottom: 20px;
-    margin-left: 80px;
-}
-header{
-    margin-left: 120px;
+    /* margin-left: 220px;*/
+    margin-top: 10px; 
 }
 main .container a p{
-    width: 85px;
+    width: 52px;
+    height: 51px;
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);  
-    font-size: 65px;  
+    font-size: 45px;  
     text-align: center;
-    padding-top: 5px;
-    border-radius:20px;
+    padding-top: 1.1px;
+    border-radius:15px;
 }
 main .container a b{
-    font-size: 50px;
+    font-size: 30px;
     color: white;
-    margin-left: 15px;  
+    margin-left: 10px;
+    letter-spacing: 2px;  
 }
 main .container a {
-    width: 380px;
-    height: 95px;
+    width: 280px;
+    height: 70px;
     padding: 10px 10px  10px 10px;
-    border-radius: 20px;
+    border-radius: 15px;
     display: flex;
     align-items: center;
     margin-top: 40px;
     background-color: #ffffff4d;
     transform: translate(-0%, -0%);
     overflow: hidden;
+    margin-left: 230px;
 }
  
 .color-top {
@@ -76,7 +73,7 @@ main .container a {
     width: 100%;
     height: 10px;
     top: 0;
-    /* left: 0; */
+    left: 0;
     background: linear-gradient(to right, #002b9d,#34ffea);
     animation: animate1 2s linear infinite;
 }
@@ -94,4 +91,75 @@ main .container a {
     height: 100%;
     top: 0;
 }
-@media 
+@media (max-width: 1160px){
+    .container{
+        width: 1040px;
+    }
+    img{
+        margin-left: 450px;
+    }
+    .text{
+        margin-left: 300px;
+    }
+}
+@media (max-width: 1060px){
+    .container{
+        width: 940px;
+    }
+    img{
+        margin-left: 400px;
+    }
+    .text{
+        margin-left: 250px;
+    }
+    main .container a{
+        margin-left:    110px;
+    }
+}
+@media (max-width: 960px){
+    .container{
+        width: 840px;
+    }
+    img{
+        margin-left: 350px;
+    }
+    .text{
+        margin-left: 200px;
+    }
+}
+@media (max-width: 860px){
+    .container{
+        width: 740px;
+    }
+    img{
+        margin-left: 450px;
+    }
+    .text{
+        margin-left: 300px;
+    }
+}
+@media (max-width: 760px){
+    .container{
+        width: 640px;
+    }
+}
+@media (max-width: 660px){
+    .container{
+        width: 540px;
+    }
+}
+@media (max-width: 560px){
+    .container{
+        width: 440px;
+    }
+}
+@media (max-width: 460px){
+    .container{
+        width: 340px;
+    }
+}
+@media (max-width: 360px){
+    .container{
+        width: 240px;
+    }
+}
