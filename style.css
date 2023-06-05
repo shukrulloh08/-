@@ -29,27 +29,24 @@ img{
     width: 500px;
     margin-left: 350px;
     text-align: center;
-    /* margin-left: 135px; */
 }
 .text p{
     color: rgba(255, 255, 255,0.8);
     font-size: 25px;
-    /* text-align: 20px; */
     letter-spacing: 4px;
-    /* margin-left: 220px;*/
     margin-top: 10px; 
 }
 main .container a p{
-    width: 52px;
-    height: 51px;
+    width: 45px;
+    height: 45px;
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);  
-    font-size: 45px;  
+    font-size: 40px;  
     text-align: center;
-    padding-top: 1.1px;
-    border-radius:15px;
+    padding-top: 1.5px;
+    border-radius: 10px;
 }
 main .container a b{
-    font-size: 30px;
+    font-size: 28px;
     color: white;
     margin-left: 10px;
     letter-spacing: 2px;  
@@ -57,7 +54,7 @@ main .container a b{
 main .container a {
     width: 280px;
     height: 70px;
-    padding: 10px 10px  10px 10px;
+    padding: 10px 10px  10px 15px;
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -65,16 +62,18 @@ main .container a {
     background-color: #ffffff4d;
     transform: translate(-0%, -0%);
     overflow: hidden;
-    margin-left: 230px;
+    margin-left: 210px;
 }
+
+                        /* animation */
  
 .color-top {
     position: absolute;
     width: 100%;
-    height: 10px;
+    height: 6.5px;
     top: 0;
     left: 0;
-    background: linear-gradient(to right, #002b9d,#34ffea);
+    background: linear-gradient(to right, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100% );
     animation: animate1 2s linear infinite;
 }
 @keyframes animate1{
@@ -87,10 +86,67 @@ main .container a {
 }
 .color-right{
     position: absolute;
-    width: 10px;
+    width:6.5px;
     height: 100%;
     top: 0;
+    right: 0;
+    background: linear-gradient(to bottom, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100% );
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
 }
+@keyframes animate2{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+
+    }
+} 
+.color-bottom{
+    position: absolute;
+    width: 100%;
+    height:6.5px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100% );
+    animation: animate3 2s linear infinite
+}
+@keyframes animate3{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.color-left{
+    position: absolute;
+    width:6.5px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100% );
+    animation: animate4 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animate4{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(-100%);
+
+    }
+} 
+
+
+
+
+
+
+
+
 @media (max-width: 1160px){
     .container{
         width: 1040px;
@@ -132,34 +188,70 @@ main .container a {
         width: 740px;
     }
     img{
-        margin-left: 450px;
+        margin-left: 300px;
     }
     .text{
-        margin-left: 300px;
+        margin-left: 150px;
+    }
+    main .container a{
+        margin-left: 0;
     }
 }
 @media (max-width: 760px){
     .container{
         width: 640px;
     }
+    img{
+        margin-left: 250px;
+    }
+    .text{
+        margin-left: 100px;
+    }
+    main .container a{
+        width: 300px;
+        margin-left: 19 0px;
+    }
 }
 @media (max-width: 660px){
     .container{
         width: 540px;
     }
+    img{
+        margin-left: 200px;
+    }
+    .text{
+        margin-left: 50px;
+    } 
+    main .container a{
+        width: 300px;
+        margin-left: 120px;
+    }
 }
 @media (max-width: 560px){
     .container{
         width: 440px;
-    }
+    } 
+    main .container a{
+        width: 250px;
+        margin-left: 110px;
+    }   
 }
 @media (max-width: 460px){
     .container{
         width: 340px;
     }
+    img{
+        margin-left: 130px;
+    }
+    .text{
+        margin-left:0px;
+    }
+   
 }
 @media (max-width: 360px){
     .container{
         width: 240px;
     }
+   
+    
 }
