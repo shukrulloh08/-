@@ -66,12 +66,12 @@ main .container a {
     background-color: #ffffff4d;
     transform: translate(-0%, -0%);
     overflow: hidden;
-    margin-left: 230px;
-}
-main{
-    display: flex;
-    width: 150px;
     
+}
+.div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
                         /* animation */
@@ -283,7 +283,7 @@ main{
         width: 440px;
     } 
     main .container a{
-        width: 250px;
+        width: 450px;
         margin-left: 110px;
     }   
 }
@@ -296,6 +296,9 @@ main{
     }
     .text{
         margin-left:0px;
+    }
+    .div{
+        width: 400px;
     }
    
 }
