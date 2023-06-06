@@ -42,12 +42,28 @@ main .container a p{
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);  
     font-size: 40px;  
     padding: 3px 5px;
-    /* padding-top: 1.5px; */
     border-radius: 10px;
+    animation: instagram 3s infinite linear;
+    background-size: 200%;
 }
 main .container a i{
     font-size: 45px;  
     margin-right: 5px;
+   
+}
+.fa-telegram{
+    animation: telegram 2s infinite linear;
+}
+@keyframes telegram{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: rotate(70deg) rotate(-50deg);
+    }
+    100%{
+        transform: scale(1.16);
+    }
 }
 main .container a b{
     font-size: 28px;
@@ -65,20 +81,83 @@ main .container a {
     margin-top: 40px;
     background-color: #ffffff4d;
     transform: translate(-0%, -0%);
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
 .div{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+.fa-tiktok{
+    position: absolute;
+}
+.TikTok{
+    margin-left: 50px !important;
+}
+.color-tiktok1{
+    position: absolute;
+    left: 13.5px;
+    top: 10px;
+    transform: translateX(-0px);
+    animation: tiktok1 1s infinite linear;
+}
+.color-tiktok2{
+    position: absolute;
+    left: 17px;
+    animation: tiktok1 1s infinite linear;
+}
+.color-tiktok3{
+    animation: tiktok1 1s infinite ;
+}
+@keyframes tiktok1{
+    0%{
+        transform: scale(1.02);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: scale(1.09);
+    }
+}
+    
+@keyframes instagram{
+    0%{
+        background-position: 0 20%; 
+    }
+    30%{
+        background-position: 70%;
+    }
+    40%{
+        background-position: 40% 20%;
+    }
+    50%{ 
+        background-position: 100% 100%;
+    }
+    60%{
+        background-position: 50% 200%;
+    }
+    70%{
+        background-position: 0%;
+    }
+    80%{
+        background-position: 200%;
+    }
+    90%{
+        background-position: 200%;
+    }
+    100%{  
+        background-position: 0 20%;
+    }
+}
+
+
+
+
+
 
                         /* animation */
  
-
-
-
 .color-top {
     position: absolute;
     width: 100%;
@@ -97,6 +176,16 @@ main .container a {
     background: linear-gradient(to right, #478bff, blue);
     animation: animate1 2s linear infinite;
 }
+.color-top3{
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right,  rgba(96, 224, 209, 0),#82dfdd,#82dfdd,#82dfdd);
+    box-shadow: 0px 0px 10px 0px  #82dfdd;
+    animation: animate1 2s linear infinite;
+}
 @keyframes animate1{
     0%{
         transform: translateX(-100%);
@@ -112,6 +201,17 @@ main .container a {
     top: 0;
     right: 0;
     background: linear-gradient(to bottom, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100% );
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
+}
+.color-right3{
+    position: absolute;
+    width:6px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(96, 224, 209, 0),#82dfdd,#82dfdd,#82dfdd);
+    box-shadow: 0px 0px 10px 0px  #82dfdd;
     animation: animate2 2s linear infinite;
     animation-delay: 1s;
 }
@@ -142,6 +242,11 @@ main .container a {
     left: 0;
     background: linear-gradient(to left, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100% );
     animation: animate3 2s linear infinite
+}
+.color-bottom3{
+    position: absolute;
+    width: 100%;
+    height: 6px;
 }
 .color-bottom2{
     position: absolute;
