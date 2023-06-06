@@ -150,6 +150,9 @@ main .container a {
         background-position: 0 20%;
     }
 }
+header{
+    padding-bottom: 100px;
+}
 
 
 
