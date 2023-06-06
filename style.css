@@ -175,8 +175,7 @@ header{
 
 
 
-
-                        /* animation */
+                                                    /* animation */
  
 .color-top {
     position: absolute;
@@ -360,7 +359,6 @@ header{
     animation: animate4 2s linear infinite;
     animation-delay: 1s;
 }
-
 .color-left2{
     position: absolute;
     width:6px;
@@ -386,8 +384,9 @@ header{
 
 
 
+                                        /* responsive */
 
-
+                                                
 
 @media (max-width: 1160px){
     .container{
@@ -491,12 +490,9 @@ header{
     .div{
         width: 400px;
     }
-   
 }
 @media (max-width: 360px){
     .container{
         width: 240px;
     }
-   
-    
 }
