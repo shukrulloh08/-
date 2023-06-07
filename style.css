@@ -16,23 +16,8 @@ body{
     0%{
         background-position: 0 20%;
     }
-    10%{
-        background-position: 50% 80%;
-    }
-    20%{
-        background-position: 100% 50%;
-    }
-    30%{
-        background-position: 50% 50%;
-    }
-    40%{
-        background-position: 20% 50%;
-    }
     50%{
         background-position: 50% 50%;
-    }
-    60%{
-        background-position: 50% 70%;
     }
     70%{
         background-position: 10% 50%;
