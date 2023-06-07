@@ -14,7 +14,7 @@ body{
 }
 @keyframes body{
     0%{
-        background-position: 0 0%;
+        background-position: 0 20%;
     }
     10%{
         background-position: 50% 80%;
@@ -38,7 +38,7 @@ body{
         background-position: 10% 50%;
     }
     100%{
-        background-position:  30% 100%;
+        background-position:  30% 20%;
     }
 }
 .container{
