@@ -10,7 +10,7 @@ a{
 body{
     background: linear-gradient(to right,#1E1E20,#000000, #303030 100%,#454545,#1E1E20);
     animation: body 10s infinite linear;
-    background-size: 200%;
+    background-size: 300%;
 }
 @keyframes body{
     0%{
@@ -23,7 +23,7 @@ body{
         background-position: 100% 100%;
     }
     100%{
-        background-position:  0% 20%;
+        background-position:  100% 100%;
     }
 }
 .container{
