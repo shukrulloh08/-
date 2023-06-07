@@ -8,7 +8,7 @@ a{
     display: block;
 }
 body{
-    background: linear-gradient(to right,#1E1E20,#3c3c3c, #000000 100%,#606064,#1E1E20);
+    background: linear-gradient(to right,#1E1E20,#000000, #303030 100%,#454545,#1E1E20);
     animation: body 10s infinite linear;
     background-size: 200%;
 }
@@ -20,10 +20,10 @@ body{
         background-position: 50% 50%;
     }
     70%{
-        background-position: 10% 50%;
+        background-position: 100% 100%;
     }
     100%{
-        background-position:  30% 20%;
+        background-position:  0% 20%;
     }
 }
 .container{
