@@ -8,7 +8,38 @@ a{
     display: block;
 }
 body{
-    background-color: #1E1E20;
+    background: linear-gradient(to right,#1E1E20,#3c3c3c, #000000 100%,#606064,#1E1E20);
+    animation: body 10s infinite linear;
+    background-size: 200%;
+}
+@keyframes body{
+    0%{
+        background-position: 0 0%;
+    }
+    10%{
+        background-position: 50% 80%;
+    }
+    20%{
+        background-position: 100% 50%;
+    }
+    30%{
+        background-position: 50% 50%;
+    }
+    40%{
+        background-position: 20% 50%;
+    }
+    50%{
+        background-position: 50% 50%;
+    }
+    60%{
+        background-position: 50% 200%;
+    }
+    70%{
+        background-position: 10% 50%;
+    }
+    100%{
+        background-position:  30% 100%;
+    }
 }
 .container{
     width: 1140px;
